@@ -1,13 +1,14 @@
 package com.yasser.produits.service;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.yasser.produits.entities.Categorie;
 import com.yasser.produits.entities.Produit;
 import com.yasser.produits.repos.ProduitRepository;
 
+@Component
 public class ProduitServiceImpl implements ProduitService {
 
 	@Autowired 
